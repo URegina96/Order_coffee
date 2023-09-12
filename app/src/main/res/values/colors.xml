@@ -5,4 +5,5 @@
     <color name="lightbrown">#FFC973</color>
     <color name="darkbrown">#A66500</color>
     <color name="buttincolor">#FF5C00</color>
+    <color name="toolbar">#FF5C00</color>
 </resources>

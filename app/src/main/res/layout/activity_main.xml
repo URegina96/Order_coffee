@@ -12,9 +12,11 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#A65F00" />
-<!--        android:text="@string/toolbar" -  почему-то не хочет признавать -->
-<!--        android:textColor="@color/white" -  почему-то не хочет признавать -->
+        android:background="@color/buttincolor" />
+    <!--        android:titleTextColor="@color/white" -  почему-то не хочет признавать -->
+    <!--        android:titleTextColor="#ff0000" -  почему-то не хочет признавать -->
+    <!--        android:text="@string/toolbar" -  почему-то не хочет признавать -->
+    <!--        android:textColor="@color/white" -  почему-то не хочет признавать -->
 
     <ImageView
         android:id="@+id/imageView3"
@@ -65,7 +67,7 @@
         android:textSize="24sp"
         android:layout_margin="8dp"
 
-
+        android:background="@color/buttincolor"
         android:textColor="@color/white"
         android:text="@string/button_create_order" />
 </LinearLayout>

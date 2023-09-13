@@ -13,6 +13,9 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        setTitle("Hi"); //добавила отсюда, так как в xml не реагирует
+        setTitle("Hi, I love coffe and you?"); //добавила в эту строку, так как в xml не реагирует
+        toolbar.setLogo(R.drawable.baseline_coffee_maker_24);
+        toolbar.setTitleTextColor(0xFFFFFFFF);//добавила в эту строку, так как в xml не реагирует
+
     }
 }

@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -43,6 +44,8 @@ public class LoginActivity extends AppCompatActivity {
             intent.putExtra("password",password);
 
             startActivity(intent); //запускаем новую активнсть
+        }else{ //создаем всплывающее окно, с которым не может взаимодействовать пользователь (в том случае, если какое-то поле не заполнено)
+            Toast.makeText(this,R.string.warning_fill_fields, Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -12,14 +12,14 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/buttincolor" />
+        android:background="@color/buttincolor"/>
     <!--        android:titleTextColor="@color/white" -  почему-то не хочет признавать -->
     <!--        android:titleTextColor="#ff0000" -  почему-то не хочет признавать -->
     <!--        android:text="@string/toolbar" -  почему-то не хочет признавать -->
     <!--        android:textColor="@color/white" -  почему-то не хочет признавать -->
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageViewLogo"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="0dp"
@@ -27,7 +27,7 @@
         android:src="@drawable/cof" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewWelcome"
         android:textSize="38sp"
         android:gravity="center"
         android:layout_marginBottom="16dp"
@@ -39,7 +39,7 @@
         android:text="@string/welcome" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editTextTextName"
         android:layout_width="match_parent"
         android:layout_height="49dp"
         android:textColor="@color/white"
@@ -50,7 +50,7 @@
         android:textStyle="bold"/>
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="49dp"
         android:textColor="@color/white"
@@ -61,7 +61,7 @@
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCreateOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
@@ -69,5 +69,7 @@
 
         android:background="@color/buttincolor"
         android:textColor="@color/white"
-        android:text="@string/button_create_order" />
+        android:text="@string/button_create_order"
+
+        android:onClick="onClickCreateOrder"/>
 </LinearLayout>

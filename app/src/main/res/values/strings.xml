@@ -8,15 +8,20 @@
     <string name="toolbar">Hi,I love coffee</string>
     <string name="warning_fill_fields">Все поля должны быть заполнены </string>
     <string name="spinner_text_hint">Выберите из списка</string>
-    <string name="hello_user">"Что будете заказывать?   "</string>
+    <string name="hello_user">Привет, %s! Что будете заказывать?</string>
     <string name="tea">"Чай "</string>
     <string name="coffe">"Кофе "</string>
-    <string name="additions">Что добавить в Ваш чай?</string>
+    <string name="additions">Что добавить в Ваш %s?</string>
     <string name="milk">Молоко</string>
     <string name="sugar">Сахар</string>
     <string name="lemon">Лимон</string>
     <string name="ChooseDrink">Выберите вид напитка</string>
     <string name="button_send_description">"Кнопка отправить заказ   "</string>
+
+    <string name="default_name">человек</string>
+    <string name="default_password">пароль</string>
+    <string name="order">Имя: %s\n Пароль: %s\n Напиток: %s\n Вид напитка: %s\n</string>
+    <string name="need_additions">"Выбранные добавки: "</string>
 
 
     <string-array name="options_of_coffe">

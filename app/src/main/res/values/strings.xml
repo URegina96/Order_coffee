@@ -20,7 +20,7 @@
 
     <string name="default_name">человек</string>
     <string name="default_password">пароль</string>
-    <string name="order">Имя: %s\n Пароль: %s\n Напиток: %s\n Вид напитка: %s\n</string>
+    <string name="order">Имя: %s\nПароль: %s\nНапиток: %s\nВид напитка: %s\n</string>
     <string name="need_additions">"Выбранные добавки: "</string>
 
 
